@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaiswal portfolio</title>
+    <link rel="stylesheet" href="dev.css/styles.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="webname">JAISWAL PORTFOLIO</div>
+      <div class="menu">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          
+          <ul>
+            <li><a href="portfolio.html">HOME</a></li>
+            <hr />
+            <li><a href="skills.html">SKILLS</a></li>
+            <hr />
+            <li><a href="projects.html">PROJECTS</a></li>
+            <hr />
+            <li><a href="profile.html">PROFILE</a></li>
+            <hr />
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="infocontainer">
+          <div class="image">
+            <img src="image/DEV.JPG.jpeg" alt="DEV JAISWAL" />
+          </div>
+          <br />
+          <div class="intro">
+            <div class="hello">HI I AM</div>
+            <div class="name">DEV JAISWAL</div>
+            <span id="element"> </span>
+            <div class="about">
+              A showcase of my creative journey and professional accomplishment.
+            </div>
+            <div class="buttons">
+              <a
+                href="https://drive.google.com/file/d/1s5tYPMrXaYjU9gI9fF-kHuLFZTXZdTgQ/view?usp=sharing"
+                download
+                target="_blank"
+                ><button>Download CV</button></a
+              >
+            </div>
+          </div>
+        </div>
+         <hr>
+         
+        <div class="contactform">
+          <h1>Contact Me</h1>
+          <form method="get" action="#" class="form">
+              <div class="clientname">Name*: <input type="text" name="clientname" id="clientname" placeholder="Your name" required> </div>
+              <div class="email">Email*: <input type="email" name="email" id="email" placeholder="example23@gmail.com" required></div>
+              <div class="phoneno">Mobile no. : <input type="tel" name="phoneno" id="phoneno" placeholder="xxxxxxxxxx"></div>
+              <div class="message">Message/queries*: <input type="text" name="message" id="message" placeholder="Enter your Text Here..." required>></textarea></div>
+              <div class="checkbox"><input type="checkbox" name="checkbox" id="checkbox"> You want to work with me.</div>
+              <div class="submit"><input type="submit" value="Submit" id="submit"></div>
+          </form>
+        </div>
+
+        <footer>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of uses</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">&copy; 2023 | Jaiswal portfolio</a></li>
+          </ul>
+        </footer>
+    
+      </div>
+    </div>
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+   
+
+<script>
+  var typed = new Typed("#element", {
+    strings: [
+      
+    "Welcome to Jaiswal Portfolio",
+      "A PASSINATE WEB DEVELOPER.",
+      "TECH ENTHUSIAST.",
+    ],
+
+    typeSpeed: 50,
+    loop: true,
+    backDelay: 900,
+    backSpeed: 20,
+  });
+</script>
+
+
+   
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu"),
+        overlay = document.querySelector(".main");
+      menuBtns.forEach((menuBtns) => {
+        menuBtns.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.reopen("open");
+      });
+    </script>
+  </body>
+</html>

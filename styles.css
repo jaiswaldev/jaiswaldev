@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Kanit:wght@100;200;400&family=Montserrat:ital,wght@1,200&family=Source+Code+Pro:wght@300&family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Fira+Sans&family=Kanit:wght@100;200;400&family=Montserrat:ital,wght@1,200&family=Source+Code+Pro:wght@300&family=Ysabeau+Infant:wght@200&display=swap');
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+/* @keyframes header {
+    from{background-color: aliceblue;}
+    to{background-color: rgb(117, 12, 141);}
+} */
+.header{
+    background-color: rgb(0, 0, 33);
+    background-attachment: fixed;
+    /* text-align: center; */
+    height: 30vh;
+    margin: 0%;
+    font-size: 56px;
+
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+    /* animation-name: header;
+    animation-duration: 5s;
+    animation-iteration-count: 5; */
+}
+.webname{
+    margin-top: 47px;
+    color: aliceblue;
+}
+.menu{
+    font-size: 40px;
+    margin-top: 134px;
+    width: 7px;
+    cursor: pointer;
+    color: #e3f2fd;
+   text-align: left;
+   
+   
+}
+.menu:hover{
+    font-size: 2rem;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.sidebar{
+    background-color: rgba(199, 192, 192, 0.555);
+    width: 200px;
+    height: 62vh;
+    font-family: 'Fira Sans', sans-serif;
+    position: fixed;
+    left: -100%;
+}
+.sidebar nav{
+    
+    padding: 23px
+}
+
+
+
+.sidebar nav ul{
+    text-align: center;
+    position: fixed;
+    left: -100%;
+    padding: 2%;
+    transition: all 0.4s ease;
+}
+.sidebar nav.open ul{
+     left: 0;
+}
+.sidebar nav li{
+    
+    list-style-type: none;
+    padding:14px 0;
+    text-align: center;
+    font-size: 21px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    color: rgb(59, 39, 9);
+    font-size: 2rem;
+}
+
+.main{
+    background-color: #e3f2fd;
+    width: 1500px;
+    padding: 0px;
+    height: 100vh;
+   
+}
+
+
+
+.container{
+    display: flex;
+    height: 70vh;
+}
+.infocontainer{
+    /* background-color: rgb(145, 127, 135); */
+    height: 50vh;
+    width: 70vw;
+    margin: 57px auto;
+    display: flex;
+    justify-content: right;
+}
+.image img{
+    border-radius: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    padding-right: 90px;
+    
+}
+
+    
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    flex-wrap: wrap;
+    user-select: none;
+}
+.hello{
+    font-size: 54px;
+   
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    user-select: none;
+}
+#element{
+    font-size: 30px;
+}
+.typed-cursor {
+    opacity: 73;
+}
+
+.about{
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    padding: 8px;
+    border-radius: 34px;
+    color: white;
+    background-color: rgb(24, 24, 209);
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(126, 22, 200);
+}
+
+
+.contactform{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    height: 65vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3f2fd;
+   
+   
+}
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.contactform form div{
+    padding: 5px;
+}
+#clientname{
+    margin-top: 10px;
+    width: 125px;
+    border-radius: 6px;
+}
+#email{
+    width: 116px;
+    border-radius: 6px;
+}
+#phoneno{
+    width: 120px;
+    border-radius: 6px;
+}
+#message{
+    border-radius: 4px;
+    height: 42px;
+    
+}
+#submit{
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+#submit:hover{
+    background-color: white;
+    color: blue;
+}
+footer{
+    background-color: rgb(66, 49, 51);
+    height: 39px;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    padding: 6px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;   
+}
+footer li a:hover{
+   font-size: 1.5rem;
+}
+
+@media screen {
+    
+}
